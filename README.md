@@ -19,7 +19,7 @@ The resulting database collection is composed of documents indexed by sample-id,
 
 ### Result
 
-With this tool, synonymous mutations found in the splicing sites are easily filtered for
+With this tool, a novel splicing event causing gene damage was found in the TRAF-3 tumor suppressor gene. This tool's approach has proven useful in precision medicine with not only multiple myeloma, but all genetic diseases.
 
 ## gtfImport
 
