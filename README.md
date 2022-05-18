@@ -3,7 +3,9 @@ This repository contains scripts from my 2018 Helios Scholars internship with th
 
 ## vcfImport
 
-This script annotates, formats, then imports an entire directory of .vcf files to TGen's NoSQL MongoDB by-patient by-gene.
+This script annotates, formats, then imports an entire directory of .vcf files to a MongoDB database by-sample by-gene. 
+
+The purpose of this script is to give bioinformaticians the ability to convert massive amounts of genomic data into an easily queryable database. My personal research used this approach on Multiple Myeloma (MM) patient tumor samples to determine if non-damaging ("synonymous") splice-site mutations could actually cause damage to genes that play a key part in MM.
 
 ### Usage
 
@@ -19,7 +21,7 @@ The resulting database collection is composed of documents indexed by sample-id,
 
 ### Result
 
-With this tool, a novel splicing event causing gene damage was found in the TRAF-3 tumor suppressor gene. This tool's approach has proven useful in precision medicine with not only multiple myeloma, but all genetic diseases.
+With this tool, a novel splicing event causing genetic damage (intron retention) was found in the TRAF-3 tumor suppressor gene and has therefore proven useful in precision medicine. In addition, this approach has proven useful with not only multiple myeloma, but all genetic diseases.
 
 ## gtfImport
 
