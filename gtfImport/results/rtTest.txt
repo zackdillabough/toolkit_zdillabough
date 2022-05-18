@@ -1,0 +1,18 @@
+2018-06-19T18:46:26.160-0700 I CONTROL  [initandlisten] MongoDB starting : pid=32203 port=27017 dbpath=/data/db 64-bit host=dback-login2
+2018-06-19T18:46:26.160-0700 I CONTROL  [initandlisten] db version v3.4.15-49-g4ef027f
+2018-06-19T18:46:26.160-0700 I CONTROL  [initandlisten] git version: 4ef027f98d5c00a0f4e507cbe39a22cab4c7a44c
+2018-06-19T18:46:26.160-0700 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.0-fips 29 Mar 2010
+2018-06-19T18:46:26.160-0700 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-06-19T18:46:26.160-0700 I CONTROL  [initandlisten] modules: none
+2018-06-19T18:46:26.160-0700 I CONTROL  [initandlisten] build environment:
+2018-06-19T18:46:26.160-0700 I CONTROL  [initandlisten]     distmod: amazon
+2018-06-19T18:46:26.160-0700 I CONTROL  [initandlisten]     distarch: x86_64
+2018-06-19T18:46:26.160-0700 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-06-19T18:46:26.160-0700 I CONTROL  [initandlisten] options: {}
+2018-06-19T18:46:26.160-0700 I STORAGE  [initandlisten] exception in initAndListen: 29 Data directory /data/db not found., terminating
+2018-06-19T18:46:26.160-0700 I NETWORK  [initandlisten] shutdown: going to close listening sockets...
+2018-06-19T18:46:26.160-0700 I NETWORK  [initandlisten] shutdown: going to flush diaglog...
+2018-06-19T18:46:26.160-0700 I CONTROL  [initandlisten] now exiting
+2018-06-19T18:46:26.160-0700 I CONTROL  [initandlisten] shutting down with code:100
+Average import time (per variant): 0.9352584679921468
+'s2m_gene's total runtime: 2.8467838764190674
